@@ -1,0 +1,29 @@
+{
+	"name": "bmo-hue",
+	"version": "0.0.1",
+	"description": "Hue plugin for BMO for controlling light bulbs via Jabber",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stevestreza/bmo-hue"
+	},
+	"keywords": [
+		"bmo",
+		"bmo-plugin",
+		"hue",
+		"phillips",
+		"xmpp"
+	],
+	"author": "Steve Streza",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/stevestreza/bmo-hue/issues"
+	},
+	"dependencies": {
+		"node-hue-api": ">= 0.2.2",
+		"async": "*"
+	},
+	"peerDependencies": {
+		"bmo": "*"
+	}
+}
